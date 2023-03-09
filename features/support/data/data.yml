@@ -1,2 +1,6 @@
-example_root:
-  example_data: data
+login:
+  txt_btn_entrar: Entrar
+  txt_btn_cadastrar: 'Cadastrar'
+  lbl_location: 'Sorocaba, SP'
+  lbl_baixa: 'BAIXA'
+  lbl_alta: 'ALTA'
