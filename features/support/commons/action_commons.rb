@@ -40,12 +40,4 @@ module PageObjects
   rescue
     raise 'Not found result'
   end
-    
-    
-  def wait_for_click(atributos)
-    wait = Selenium::WebDriver::Wait.new
-    wait { find_element(atributos).click }
-  rescue
-    raise 'Failed to complete action'
-  end
 end
