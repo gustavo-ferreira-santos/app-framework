@@ -14,7 +14,7 @@ Quando('realizar o login no sistema {string}') do |tipo|
   end
 end
 
-Então('validar login realizado com sucesso {string}') do |tipo|
+Então('validar acesso a página inicial do app com sucesso {string}') do |tipo|
   if tipo.eql?('positivo')
     wait_for_text(data_load(%w[login lbl_location]))
     expect(is_visible?(data_load(%w[login lbl_baixa]))).to be_truthy

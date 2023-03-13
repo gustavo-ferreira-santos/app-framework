@@ -1,4 +1,16 @@
 module PageObjects
+  def find_element_by_id(locator)
+    find_element(:id, "#{locator}")
+  rescue StandardError => e
+    raise "#{e.inspect}\nElement with ID = '#{locator}' was not found on the current screen."
+  end
+
+  def find_element_by_class(locator)
+    find_element(:class, "#{locator}")
+  rescue StandardError => e
+    raise "#{e.inspect}\nElement with CLASS = '#{locator}' was not found on the current screen."
+  end
+
   def find_element_by_text(locator)
     find_element(:xpath, "//*[contains(@text,'#{locator}')]")
   rescue StandardError => e

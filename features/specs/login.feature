@@ -9,7 +9,7 @@ Funcionalidade: Login - Validar login no aplicativo
   Esquema do Cenário: Validar acesso a área logada do aplicativo
     Dado acessar a página inicial do app
     Quando realizar o login no sistema '<tipo>'
-    Então validar login realizado com sucesso '<tipo>'
+    Então validar acesso a página inicial do app com sucesso '<tipo>'
 
     Exemplos:
       | tipo      |

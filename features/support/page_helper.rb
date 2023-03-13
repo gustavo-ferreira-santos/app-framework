@@ -2,6 +2,10 @@ Dir[File.join(File.dirname(__FILE__), '../pages/*_page.rb')].each { |file| requi
 
 module PageObjects 
   def login
-      PageObjects::LoginScreen.new
+      PageObjects::LoginPage.new
+  end
+
+  def cadastro
+    PageObjects::CadastroPage.new
   end
 end

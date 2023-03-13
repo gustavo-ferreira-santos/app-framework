@@ -4,3 +4,11 @@ login:
   lbl_location: 'Sorocaba, SP'
   lbl_baixa: 'BAIXA'
   lbl_alta: 'ALTA'
+
+cadastro:
+  phone_number: '11999999999'
+  incorrect_phone_number: '11'
+  register_name: 'User Test'
+  btn_next: '>'
+  btn_localiza_aut: 'LOCALIZAÇÃO AUTOMÁTICA'
+  btn_sim: 'Sim'

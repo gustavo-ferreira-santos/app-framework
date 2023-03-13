@@ -10,7 +10,7 @@ Funcionalidade: Cadastro - Validar Cadastro no aplicativo
     Dado acessar a página inicial do app
     Quando clicar no botão de cadastro no sistema
     E preencher as informações de cadastro '<tipo>'
-    Então validar cadastro realizado com sucesso '<tipo>'
+    Então validar acesso a página inicial do app com sucesso '<tipo>'
 
     Exemplos:
       | tipo      |

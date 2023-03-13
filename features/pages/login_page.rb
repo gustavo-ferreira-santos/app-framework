@@ -1,5 +1,5 @@
 module PageObjects
-  class LoginScreen
+  class LoginPage
   def elements
     {
       action_bar_root: 'io.platformbuilders.challenge.qa:id/action_bar_root',
